@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Quiz — Guerra na Síria | Geopolítica</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header class="topbar"><div class="identity"><div class="mark">✦</div><span>GEOPOLÍTICA · 3ª SÉRIE</span></div><div class="small-note">Aula 44 · Quiz de revisão<br>Guerra na Síria</div></header>
+<section class="card home" id="home">
+  <div class="hero">
+    <div class="eyebrow">Missão de aprendizagem · 30 desafios</div>
+    <h1>Guerra<br>na Síria</h1>
+    <p>Avance por 30 questões sobre as causas, os atores, a dimensão geopolítica e os impactos humanitários do conflito sírio.</p>
+    <div class="teacher"><strong>Professor: REINALDO DE OLIVEIRA</strong>GEOPOLÍTICA</div>
+    <form id="startForm"><div class="start-area"><div class="input-wrap"><label class="label" for="studentName">Nome do estudante</label><input class="name" id="studentName" maxlength="60" placeholder="Digite seu nome para começar" required /></div><button class="btn primary" type="submit">Começar →</button></div></form>
+    <div class="how"><span><i></i>30 questões</span><span><i></i>Sem limite de tempo</span><span><i></i>Feedback explicado</span></div>
+  </div>
+  <div class="visual"><img id="heroImage" alt="Bashar al-Assad, tema central da aula" /><div class="visual-caption"><strong>Do protesto à guerra civil</strong><span>Analise conexões entre política, território, poder e fluxos populacionais.</span></div></div>
+</section>
+<section class="card quiz" id="quiz">
+  <div class="quiz-head"><div class="student">Estudante: <strong id="studentDisplay"></strong></div></div>
+  <div class="progress-meta"><span id="counter">Questão 1 de 30</span><span id="points">0 acertos</span></div><div class="track"><div class="bar" id="bar"></div></div>
+  <div class="tag">Leia e escolha a alternativa correta</div><h2 class="question" id="question"></h2><img class="question-image" id="questionImage" alt="Imagem contextual da questão" />
+  <div class="options" id="options"></div><div class="feedback" id="feedback"></div><div class="actions"><button class="btn primary" id="next" hidden>Próxima →</button></div>
+</section>
+<section class="card result" id="result"><div class="trophy">🏆</div><h2><span id="resultName"></span>, missão concluída!</h2><div class="score"><b id="finalScore">0</b> / 30 acertos</div><p id="message"></p><div class="result-buttons"><button class="btn primary" id="again">Jogar novamente ↻</button><button class="btn secondary" id="newStudent">Trocar estudante</button></div></section>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
